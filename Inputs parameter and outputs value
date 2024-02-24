@@ -1,0 +1,6 @@
+X = df.drop(['Class'], axis = 1) 
+Y = df["Class"] 
+print(X.shape) 
+print(Y.shape) 
+xDf = X.values 
+yDf = Y.values 
