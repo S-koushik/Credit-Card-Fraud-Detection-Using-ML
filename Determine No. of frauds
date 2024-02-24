@@ -1,0 +1,6 @@
+fraud = df[df['Class'] == 1] 
+valid = df[df['Class'] == 0] 
+outlierFraction = len(fraud)/float(len(valid)) 
+print(outlierFraction) 
+print('Fraud Cases: {}'.format(len(df[df['Class'] == 1]))) 
+print('Valid Transactions: {}'.format(len(df[df['Class'] == 0]))) 
