@@ -1,0 +1,4 @@
+print(“details of valid transaction :”) 
+valid.Amount.describe() 
+print(“Amount details of the fraudulent transaction :”) 
+fraud.Amount.describe() 
